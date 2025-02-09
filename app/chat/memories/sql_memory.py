@@ -33,3 +33,5 @@ def build_memory(chat_args):
     memory_key="chat_history",
     output_key="answer"
 )
+
+# Make custom memory to store messages in SQLite
